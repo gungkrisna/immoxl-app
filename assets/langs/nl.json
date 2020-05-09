@@ -1,0 +1,46 @@
+{
+    "main": {
+        "Sign In": "Sign In",
+        "Email": "Email",
+        "Password": "Password",
+        "Forgot your password?": "Forgot your password?",
+        "OR": "OR",
+        "Dont have an account? ": "Don't have an account? ",
+        "Sign Up": "Sign Up",
+        "Sign Up!": "Sign Up!",
+        "Create Account": "Create Account",
+        "Name": "Name",
+        "Phone": "Phone",
+        "Already have an account? ": "Already have an account? ",
+        "Sign In!": "Sign In!"
+    },
+    "home": {
+        "Welcome": "Welcome",
+        "Explore new property today": "Explore new property today",
+        "Search an office, shop, or industrial halls": "Search an office, shop, or industrial halls",
+        "NEW": "NEW",
+        "FOLLOWING": "FOLLOWING"
+    },
+    "property": {
+        "FOR SALE": "FOR SALE",
+        "SEND": "SEND",
+        "FOR RENT": "FOR RENT",
+        "FILTER": "FILTER",
+        "Office": "Office",
+        "Industrial": "Industrial",
+        "Shop & Retail": "Shop & Retail",
+        "Request info": "Request info",
+        "Property Owner": "Property Owner",
+        "MORE": "MORE",
+        "Maps": "Maps",
+        "DIRECTION": "DIRECTION",
+        "Views": "Views",
+        "Favorites": "Favorites",
+        "Listed since": "Listed since",
+        "Details": "Details ",
+        "CALL": "CALL",
+        "MESSAGE": "MESSAGE",
+        "Description": "Description",
+        "I am interested in this property. Can you contact me?": "I am interested in this property. Can you contact me?"
+    }
+}
