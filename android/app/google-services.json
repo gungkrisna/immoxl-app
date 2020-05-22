@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702444353246",
+    "firebase_url": "https://immoxl.firebaseio.com",
+    "project_id": "immoxl",
+    "storage_bucket": "immoxl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702444353246:android:bfc42fb0d5c105f841f44f",
+        "android_client_info": {
+          "package_name": "com.immoxl.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702444353246-mlrlj365m6trrkgt8njg8dnal1lrr4bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUxkailRXxlf7uPl8e_2a79HeBzr5PjAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702444353246-mlrlj365m6trrkgt8njg8dnal1lrr4bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

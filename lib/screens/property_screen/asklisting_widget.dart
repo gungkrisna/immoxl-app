@@ -1,5 +1,5 @@
 import 'package:IMMOXL/theme/styles.dart';
-import 'package:IMMOXL/translations.dart';
+import 'package:IMMOXL/all_translations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -26,7 +26,7 @@ class _AskListingWidgetState extends State<AskListingWidget> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
                   Text(
-                    Translations.of(context).text('property', 'Request info'),
+                    allTranslations.text('property', 'Request info'),
                     style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
@@ -47,7 +47,7 @@ class _AskListingWidgetState extends State<AskListingWidget> {
               height: 25,
             ),
             Text(
-              Translations.of(context).text('main', 'Name'),
+              allTranslations.text('main', 'Name'),
               style: TextStyle(
                 color: IMMOXLTheme.purple,
                 fontWeight: FontWeight.bold,
@@ -88,7 +88,7 @@ class _AskListingWidgetState extends State<AskListingWidget> {
               ),
             ),
             Text(
-              Translations.of(context).text('main', 'Phone'),
+              allTranslations.text('main', 'Phone'),
               style: TextStyle(
                 color: IMMOXLTheme.purple,
                 fontWeight: FontWeight.bold,
@@ -129,7 +129,7 @@ class _AskListingWidgetState extends State<AskListingWidget> {
               ),
             ),
             Text(
-              Translations.of(context).text('property', 'Description'),
+              allTranslations.text('property', 'Description'),
               style: TextStyle(
                 color: IMMOXLTheme.purple,
                 fontWeight: FontWeight.bold,
@@ -143,7 +143,7 @@ class _AskListingWidgetState extends State<AskListingWidget> {
                   TextFormField(
                     maxLines: 6,
                     keyboardType: TextInputType.multiline,
-                    initialValue: Translations.of(context).text('property',
+                    initialValue: allTranslations.text('property',
                         'I am interested in this property. Can you contact me?'),
                     style: TextStyle(
                       fontSize: 13,
@@ -186,7 +186,7 @@ class _AskListingWidgetState extends State<AskListingWidget> {
                 child: Padding(
                   padding: EdgeInsets.all(15),
                   child: Text(
-                    Translations.of(context).text('property', 'SEND'),
+                    allTranslations.text('property', 'SEND'),
                     style: TextStyle(
                       fontSize: 16,
                       color: IMMOXLTheme.white,

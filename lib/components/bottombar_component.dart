@@ -1,8 +1,8 @@
 import 'dart:math' as math;
+import 'package:IMMOXL/screens/publish_screen/publish_screen.dart';
 import 'package:IMMOXL/theme/styles.dart';
 import 'package:IMMOXL/models/tabIcon_model.dart';
 import 'package:flutter/material.dart';
-import 'package:IMMOXL/screens/publish_screen/publish_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class BottomBarComponent extends StatefulWidget {

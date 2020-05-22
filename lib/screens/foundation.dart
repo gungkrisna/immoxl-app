@@ -14,14 +14,13 @@ class Foundation extends StatefulWidget {
 class _FoundationState extends State<Foundation> with TickerProviderStateMixin {
   AnimationController animationController;
 
-   List<TabIconData> tabIconsList = TabIconData.tabIconsList;
+  List<TabIconData> tabIconsList = TabIconData.tabIconsList;
 
   Widget tabBody = Container(
     color: Colors.white,
   );
 
-
-   @override
+  @override
   void initState() {
     tabIconsList.forEach((TabIconData tab) {
       tab.isSelected = false;
@@ -72,36 +71,32 @@ class _FoundationState extends State<Foundation> with TickerProviderStateMixin {
           addClick: () {},
           changeIndex: (int index) {
             if (index == 0) {
-                if (!mounted) {
-                  return;
-                }
-                setState(() {
-                  tabBody =
-                      HomeScreen();
-                });
+              if (!mounted) {
+                return;
+              }
+              setState(() {
+                tabBody = HomeScreen();
+              });
             } else if (index == 1) {
-                if (!mounted) {
-                  return;
-                }
-                setState(() {
-                  tabBody =
-                      SearchScreen();
-                });
+              if (!mounted) {
+                return;
+              }
+              setState(() {
+                tabBody = SearchScreen();
+              });
             } else if (index == 2) {
-                if (!mounted) {
-                  return;
-                }
-                setState(() {
-                  tabBody =
-                      SavedScreen();
-                });
+              if (!mounted) {
+                return;
+              }
+              setState(() {
+                tabBody = SavedScrean();
+              });
             } else if (index == 3) {
-                if (!mounted) {
-                  return;
-                }
-                setState(() {
-                  tabBody =
-                      ProfileScreen();
+              if (!mounted) {
+                return;
+              }
+              setState(() {
+                tabBody = ProfileScreen();
               });
             }
           },

@@ -1,5 +1,5 @@
 import 'package:IMMOXL/theme/styles.dart';
-import 'package:IMMOXL/translations.dart';
+import 'package:IMMOXL/all_translations.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:flutter/material.dart';
 import 'package:IMMOXL/components/readmore_component.dart';
@@ -169,8 +169,7 @@ class _PropertyScreenState extends State<PropertyScreen>
                             padding: EdgeInsets.symmetric(
                                 vertical: 3, horizontal: 6),
                             child: Text(
-                              Translations.of(context)
-                                  .text('property', 'FOR RENT'),
+                              allTranslations.text('property', 'FOR RENT'),
                               style: TextStyle(
                                 color: IMMOXLTheme.white,
                                 fontWeight: FontWeight.bold,
@@ -281,8 +280,7 @@ class _PropertyScreenState extends State<PropertyScreen>
                               textAlign: TextAlign.start,
                             ),
                             Text(
-                              Translations.of(context)
-                                  .text('property', 'Property Owner'),
+                              allTranslations.text('property', 'Property Owner'),
                               style: TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.normal,
@@ -393,7 +391,7 @@ class _PropertyScreenState extends State<PropertyScreen>
           child: Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              Translations.of(context).text('property', 'Maps'),
+              allTranslations.text('property', 'Maps'),
               style: TextStyle(
                 color: Colors.black,
                 fontWeight: FontWeight.bold,
@@ -418,7 +416,7 @@ class _PropertyScreenState extends State<PropertyScreen>
             child: Padding(
               padding: EdgeInsets.all(15),
               child: Text(
-                Translations.of(context).text('property', 'DIRECTION'),
+                allTranslations.text('property', 'DIRECTION'),
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.black,
@@ -459,7 +457,7 @@ class _PropertyScreenState extends State<PropertyScreen>
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  Translations.of(context).text('property', 'Views'),
+                  allTranslations.text('property', 'Views'),
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.normal,
@@ -482,7 +480,7 @@ class _PropertyScreenState extends State<PropertyScreen>
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  Translations.of(context).text('property', 'Favorites'),
+                  allTranslations.text('property', 'Favorites'),
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.normal,
@@ -505,7 +503,7 @@ class _PropertyScreenState extends State<PropertyScreen>
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Text(
-                  Translations.of(context).text('property', 'Listed since'),
+                  allTranslations.text('property', 'Listed since'),
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.normal,

@@ -1,24 +1,23 @@
 import 'dart:async';
 // import 'package:IMMOXL/screens/onboarding_screen/onboarding_screen.dart';
 import 'package:IMMOXL/screens/foundation.dart';
+import 'package:IMMOXL/screens/onboarding_screen/onboarding_screen.dart';
 import 'package:IMMOXL/theme/styles.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 // import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'translations.dart';
+import 'all_translations.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await allTranslations.init();
   runApp(MaterialApp(
     localizationsDelegates: [
-      const TranslationsDelegate(),
       GlobalMaterialLocalizations.delegate,
       GlobalWidgetsLocalizations.delegate,
     ],
-    supportedLocales: [
-      const Locale('en', ''),
-      const Locale('nl', ''),
-    ],
+    supportedLocales: allTranslations.supportedLocales(),
     home: MyApp(),
   ));
 }
@@ -34,26 +33,19 @@ class _MyAppState extends State<MyApp> with SingleTickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    /* FirebaseAuth.instance.currentUser().then((user) {
+    FirebaseAuth.instance.currentUser().then((user) {
       userId = user.uid;
-    }); */
-    if (userId == null) {
-      Future.delayed(
-        Duration(seconds: 3),
-        () => Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(builder: (context) => Foundation()), // when all done, use OnboardingScreen()),
+    });
+    Future.delayed(
+      Duration(seconds: 3),
+      () => Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) =>
+              (userId == null) ? OnboardingScreen() : Foundation(),
         ),
-      );
-    } else {
-      Future.delayed(
-        Duration(seconds: 3),
-        () => Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(builder: (context) => Foundation()),
-        ),
-      );
-    }
+      ),
+    );
   }
 
   @override

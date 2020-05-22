@@ -4,7 +4,7 @@ import 'package:IMMOXL/screens/widgets/listing_widget.dart';
 import 'package:IMMOXL/theme/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:IMMOXL/translations.dart';
+import 'package:IMMOXL/all_translations.dart';
 
 // import 'package:firebase_auth/firebase_auth.dart';
 
@@ -51,8 +51,7 @@ class _SearchScreenState extends State<SearchScreen>
                         children: <Widget>[
                           FilterChip(
                             label: Text(
-                              Translations.of(context)
-                                  .text('property', 'FOR SALE'),
+                              allTranslations.text('property', 'FOR SALE'),
                               style: TextStyle(
                                 color: IMMOXLTheme.white,
                                 fontWeight: FontWeight.bold,
@@ -70,8 +69,7 @@ class _SearchScreenState extends State<SearchScreen>
                           ),
                           FilterChip(
                             label: Text(
-                              Translations.of(context)
-                                  .text('property', 'Office')
+                              allTranslations.text('property', 'Office')
                                   .toUpperCase(),
                               style: TextStyle(
                                 color: IMMOXLTheme.white,
@@ -88,8 +86,7 @@ class _SearchScreenState extends State<SearchScreen>
                         ],
                       ),
                       Text(
-                        Translations.of(context)
-                                  .text('property', 'FILTER')
+                        allTranslations.text('property', 'FILTER')
                                   .toUpperCase(),
                         style: TextStyle(
                           color: IMMOXLTheme.lightblue,
@@ -242,7 +239,7 @@ class _SearchScreenState extends State<SearchScreen>
                   'https://www.whitehouse.gov/wp-content/uploads/2017/12/P20170614JB-0303-2-1024x683.jpg',
               propertyLocation: 'Amsterdam, Netherlands',
               propertyPrice: '€250.000',
-              propertyStatus: Translations.of(context).text('property',
+              propertyStatus: allTranslations.text('property',
                                 'FOR RENT'),
               isFavorite: false,
             ),

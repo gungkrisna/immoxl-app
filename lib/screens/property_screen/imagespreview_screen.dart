@@ -1,5 +1,5 @@
 import 'package:IMMOXL/theme/styles.dart';
-import 'package:IMMOXL/translations.dart';
+import 'package:IMMOXL/all_translations.dart';
 import 'package:flutter/material.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:photo_view/photo_view_gallery.dart';
@@ -99,7 +99,7 @@ class _ImagesPreviewState extends State<ImagesPreview> {
                           child: Padding(
                             padding: EdgeInsets.all(15),
                             child: Text(
-                              Translations.of(context).text('property', 'CALL'),
+                              allTranslations.text('property', 'CALL'),
                               style: TextStyle(
                                 fontSize: 16,
                                 color: IMMOXLTheme.white,
@@ -117,8 +117,7 @@ class _ImagesPreviewState extends State<ImagesPreview> {
                           child: Padding(
                             padding: EdgeInsets.all(15),
                             child: Text(
-                              Translations.of(context)
-                                  .text('property', 'MESSAGE'),
+                              allTranslations.text('property', 'MESSAGE'),
                               style: TextStyle(
                                 fontSize: 16,
                                 color: IMMOXLTheme.white,

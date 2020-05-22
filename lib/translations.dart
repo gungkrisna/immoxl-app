@@ -18,7 +18,7 @@ class Translations {
   }
 
   String text(String parentKey, String nestedKey) {
-    return _localizedValues[parentKey][nestedKey] ?? '$nestedKey' + 'not available';
+    return _localizedValues[parentKey][nestedKey] ?? '$nestedKey';
   }
 
   static Future<Translations> load(Locale locale) async {

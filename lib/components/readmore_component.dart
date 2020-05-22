@@ -1,5 +1,5 @@
 import 'package:IMMOXL/theme/styles.dart';
-import 'package:IMMOXL/translations.dart';
+import 'package:IMMOXL/all_translations.dart';
 import 'package:flutter/material.dart';
 
 class ReadMoreText extends StatefulWidget {
@@ -44,7 +44,7 @@ class _ReadMoreTextState extends State<ReadMoreText>
           !isExpanded
               ? GestureDetector(
                   onTap: () => setState(() => isExpanded = true),
-                  child: Text(Translations.of(context).text('property', 'MORE'),
+                  child: Text(allTranslations.text('property', 'MORE'),
                       style: TextStyle(
                         color: IMMOXLTheme.lightblue,
                         fontWeight: FontWeight.bold,

@@ -1,4 +1,4 @@
-package com.immoxl.app.immoxl
+package com.immoxl.app
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

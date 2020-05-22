@@ -1,4 +1,12 @@
 {
+    "onboarding": {
+        "Find Industrial, Shop & Retail and Offices listings": "Find Industrial, Shop & Retail and Offices listings",
+        "Save your favorite listing or search term": "Save your favorite listing or search term",
+        "Listings are free, sell or rent your property on IMMOXL": "Listings are free, sell or rent your property on IMMOXL",
+        "Create an account for free or go further as guest": "Create an account for free or go further as guest",
+        "Guest": "Guest",
+        "Create Account": "Create Account"
+    },
     "main": {
         "Sign In": "Sign In",
         "Email": "Email",
@@ -42,5 +50,37 @@
         "MESSAGE": "MESSAGE",
         "Description": "Description",
         "I am interested in this property. Can you contact me?": "I am interested in this property. Can you contact me?"
+    },
+    "publish": {
+        "Choose\nListing\nCategory": "Choose\nListing\nCategory",
+        "What type of property do you want to sell?": "What type of property do you want to sell?",
+        "Tell us more about your listing": "Tell us more about your listing",
+        "Add Photos": "Add Photos",
+        "Title": "Title"
+    },
+    "saved": {
+        "Saved": "Saved",
+        "PROPERTY": "PROPERTY",
+        "SEARCH": "SEARCH"
+    },
+    "profile": {
+        "Notifications": "Notification",
+        "No notification": "No notifications",
+        "Change Profile Picture": "Change Profile Picture",
+        "Settings": "Settings",
+        "Edit Profile": "Edit Profile",
+        "Save": "Save",
+        "Phone Number": "Phone Number",
+        "Set Location": "Set Location",
+        "Website": "Website",
+        "Location": "Location",
+        "User type": "User type",
+        "Switch to": "Switch to",
+        "Private Owner": "Private Owner",
+        "Real Estate Agent": "Real Estate Agent",
+        "account": "account",
+        "Company Name": "Company Name",
+        "Who can see my profile?": "Who can see my profile?",
+        "Everyone who has an account on IMMOXL can see your profile details. When some of details are private, don't fill them in.": "Everyone who has an account on IMMOXL can see your profile details. When some of details are private, don't fill them in."
     }
 }
