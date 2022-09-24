@@ -2,24 +2,46 @@
 
 A real estate app MVP for [IMMOXL](https://immoxl.com/nl)
 
+## Environment
+This app was tested with below configuration:
+
+Flutter SDK 1.20.0 • channel stable
+
+Android Studio: Android Studio Arctic Fox | 2020.3.1
+
 ## Docs
 
-https://docs.google.com/document/d/1yBsiRrSd3xekD1tQaxLdNv96yaBwMcsuH813sKIZ03I/edit#heading=h.rrrtogel0fpo
+[IMMOXL requirement documentation](https://docs.google.com/document/d/1yBsiRrSd3xekD1tQaxLdNv96yaBwMcsuH813sKIZ03I/edit#heading=h.rrrtogel0fpo)
 
 ## Screen Prototype
 
-https://drive.google.com/file/d/1UcpAB5e5itFo5ZnyFCh0MwEyim2ADZEB/view
-https://drive.google.com/file/d/1ACxTN9aGbHpcrx_yWQfzckan0thnMKYM/view
+[Prototype 1](https://drive.google.com/file/d/1UcpAB5e5itFo5ZnyFCh0MwEyim2ADZEB/view)
 
-## Getting Started
+[Prototype 2](https://drive.google.com/file/d/1ACxTN9aGbHpcrx_yWQfzckan0thnMKYM/view)
 
-This project is a starting point for a Flutter application.
+## Firebase
+This app uses [Firebase](https://firebase.google.com) as its backend. You should replace the API credential `google-services.json` with yours from Firebase console.
 
-A few resources to get you started if this is your first Flutter project:
+### Firebase SDK
+[Create Firebase project](https://firebase.google.com/docs/flutter/setup?platform=ios#create_firebase_project)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+[Configure an app](https://firebase.google.com/docs/flutter/setup?platform=ios#configure_an_android_app)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+### Clone the repository
+`git clone https://github.com/gungkrisna/immoxl-app.git`
+
+### Install it
+From the terminal: Run `flutter pub get`.
+
+OR
+ 
+From Android Studio/IntelliJ: Click Packages get in the action ribbon at the top of pubspec.yaml.
+ 
+From VS Code: Click Get Packages located in right side of the action ribbon at the top of pubspec.yaml.
+
+### Run the app
+`flutter run`
+
+
